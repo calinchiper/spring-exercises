@@ -1,6 +1,5 @@
-# Yonder Autumn Internship 2018
 
-## A gentle introduction to Spring Boot
+# A gentle introduction to Spring Boot
 
 ### Exercises
 
