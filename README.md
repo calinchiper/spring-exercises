@@ -1,6 +1,8 @@
 
 # A gentle introduction to Spring Boot
 
+![](http://blog.nnadozieomeonu.com/wp-content/uploads/2018/04/spring-boot.png)
+
 ### Exercises
 
 *We need to implement a 3-layered web application that expose a REST service using Spring Boot technology*
