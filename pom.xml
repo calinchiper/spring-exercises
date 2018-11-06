@@ -9,7 +9,7 @@
     <packaging>jar</packaging>
 
     <name>exercise</name>
-    <description>Spring Boot Exercises in order to get familliar with Spring Eco-System</description>
+    <description>Spring Boot Exercises in order to get familiar with Spring Eco-System</description>
 
     <parent>
         <groupId>org.springframework.boot</groupId>
