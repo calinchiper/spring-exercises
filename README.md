@@ -31,6 +31,7 @@ saving stuff into the database. Well this is the power of Spring you'll discover
     * getStudentById
     * updateStudent
     * deleteStudent
+    * getAllStudents
  
 2. Create an implementation class called `StudentServiceImpl` in same package where `StudentService` is declared
     
@@ -58,7 +59,16 @@ is responsible for saving/persisting the data in our database. In our case we ne
   * getStudent
   * updateStudent
   * deleteStudent
+  * getAllStudents
   
 4. By default, REST controllers will serialize and deserialize Java classes into `JSON` data using the `Jackson 2 JSON library`, which is currently on the classpath by default.
 5. What are the arguments and the return type of those methods since we need to call the `StudentService`. Try to write them down. 
 6. Using the `@GetMapping`, `@PostMapping`, `@PutMapping`, `@DeleteMapping`, `@RequestBody`, `@RequestParam` annotation map each method to a REST endpoint 
+
+Endpoint description:
+
+  - "/students" with POST method - create student
+  - "/students" with GET method - get all students
+  - "/students/id" with GET method - get student by id
+  - "/students/id" with PUT method - update student 
+  - "/students/id" with DELETE method - delete student by id
