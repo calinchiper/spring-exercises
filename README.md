@@ -63,7 +63,7 @@ is responsible for saving/persisting the data in our database. In our case we ne
   
 4. By default, REST controllers will serialize and deserialize Java classes into `JSON` data using the `Jackson 2 JSON library`, which is currently on the classpath by default.
 5. What are the arguments and the return type of those methods since we need to call the `StudentService`. Try to write them down. 
-6. Using the `@GetMapping`, `@PostMapping`, `@PutMapping`, `@DeleteMapping`, `@RequestBody`, `@RequestParam` annotation map each method to a REST endpoint 
+6. Using the `@GetMapping`, `@PostMapping`, `@PutMapping`, `@DeleteMapping`, `@RequestBody`, `@PathVariable` annotation map each method to a REST endpoint 
 
 Endpoint description:
 
